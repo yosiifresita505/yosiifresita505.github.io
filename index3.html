@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes de Inundaciones en Tecámac</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <header>
+        <h1>Reportes de Inundaciones en Tecámac, Edomex</h1>
+    </header>
+    
+    <section class="emergency-info">
+        <h2>Números de Emergencia</h2>
+        <ul>
+            <li>59 38 88 88 - Emergencias tecamac</li>
+            <li>01800 8324771 - Secretaría de la Defensa Nacional SEDENA</li>
+            <li>01800 6274621 - Secretaría de Marina (SEMAR) </li>
+            <li>55 59 36 10 60 - Telefono para comunicarte a los bomberos</li>
+            <li>911 - Emergencias Generales</li>
+            <li>800-273-8255 - Línea Nacional de Prevención del Suicidio</li>
+            <li>01-800-911-2000 - Centro Nacional de Información de Emergencia</li>
+        </ul>
+    </section>
+    
+    <section class="report-form">
+        <h2>Enviar Reporte de Inundación</h2>
+        <article>
+            Debido a la temporada de lluvias, el Estado de México (Edomex) se vio afectado por inundaciones, caída de árboles, así como afectaciones en estructuras, ya que al menos 10 colonias y comunidades del municipio de Tecámac fueron las que presentaron más reportes de incidentes por las condiciones climatológicas.
+
+Hasta el momento se conoce que alrededor de 20 casas terminaron inundadas por la lluvia atípica que se registró la tarde de este lunes 24 de junio, por lo que las colonias con más incidencias registradas son la Esmeralda y en Villas del Real, sin embargo, no hubo muertes, ni personas lesionadas de gravedad.
+Las afectaciones se registran en comunidades como Lomas de Tecámac y la colonia Esmeralda, donde el agua ingresó a viviendas por la saturación del drenaje.
+Con la tromba que duró aproximadamente 35 minutos se vieron afectadas al menos 20 casas por anegación, así como la carretera federal México-Pachuca, por lo que Protección Civil y Bomberos, así como el Organismo Público Descentralizado para la Prestación de los Servicios de Agua Potable, Alcantarillado y Saneamiento (ODAPAS) en compañía de trabajadores de limpia, se dieron a la tarea de desahogar la zona.
+<br>Por ello, más de 262 servidores públicos del Ayuntamiento de Tecámac trabajaron de inmediato en labores de limpieza y desazolve. Entre los que están más de 100 trabajadores del organismo local de agua, así como 22 elementos de protección civil y ocho unidades de bomberos, al igual que la Guardia Civil municipal con 140 elementos.
+Al menos 20 casas terminaron dañadas por una fuerte lluvia que se registró la tarde del lunes 24 de junio en el municipio de Tecámac, Estado de México. 
+
+Las afectaciones se registran en comunidades como Lomas de Tecámac y la colonia Esmeralda, donde el agua ingresó a viviendas por la saturación del drenaje.
+Con afectaciones es la carretera federal México-Pachuca, donde se movilizó a Protección Civil, Bomberos, ODAPAS y trabajadores de limpieza para desahogar la zona.
+
+De acuerdo con autoridades locales, las lluvias dejaron afectaciones en al menos diez colonias y comunidades como La Esmeralda y Villas del Real, aunque sin registrar pérdidas humanas.
+
+Ante la emergencia, más de 262 servidores públicos del Ayuntamiento activaron un plan de emergencia para iniciar con las labores de limpieza y desazolve.
+
+
+        </article>
+        <img src="img/yos.jpg" alt="" height="400px" width="600px">
+        <p>En la colonia Rinconada de Aragón, se registran inundaciones que afectan casas, negocios y calles, de al menos 30 centímetros de alto. Esta es la segunda vez que ocurre en 15 días, debido al poco sistema de drenaje que existe en la colonia para desazolvar las grandes cantidades de lluvia que han caído en los últimos días.
+            Las fuertes lluvias registradas durante la tarde de este lunes 24 de junio dejaron severas inundaciones en el municipio de Tecámac, en el Estado de México, así como la caída de techo en un jardín de niños.
+
+            Esto provocó que varias vialidades colapsaran, además de que los vehículos quedaron varados ante la gran cantidad de agua que se acumuló.
+            
+            Uno de los puntos más afectado es el bajo puente ubicado a la altura de la autopista México-Pachuca, en el cruce del kilómetro 28 y la Av. Ojo de Agua.
+            
+            
+            Lluvias en Tecámac dejan inundaciones y autos varados
+            A través de redes sociales se han difundido los estragos que dejaron las lluvias de este lunes en el municipio de Tecámac.
+            
+            Una de ellas fue una gran inundación en el bajo puente que se encuentra en la autopista México-Pachuca, en donde varios vehículos quedaron atrapados en el agua.
+        </p>
+        <a href="https://www.milenio.com/estados/lluvias-inundan-mexico-pachuca-danan-casas-tecamac">mas Informaciónaqui...</a>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1QWKbSthq4EYUAucjnO-yp5aVKc0&ehbc=2E312F" width="640" height="480"></iframe>
+
+        <form id="reportForm">
+            <label for="region">Región Exacta:</label>
+            <input type="text" id="region" name="region" required>
+            
+            <label for="street">Nombre de las Calles y Referencias:</label>
+            <input type="text" id="street" name="street" required>
+            
+            <label for="date">Fecha:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="description">Descripción: (anade tu nombre y apellido).</label>
+            <textarea id="text" name="description" rows="4" required></textarea>
+            
+            <label for="image">Evidencia (subir fotos):</label>
+            <input type="file" id="image" name="image" accept="image/*">
+            
+            <button type="submit">Enviar Reporte</button>
+        </form>
+    </section>
+    
+    <section class="reports">
+        <h2>Reportes Enviados</h2>
+        <table id="reportsTable">
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Región</th>
+                    <th>Calles y Referencias</th>
+                    <th>Descripción</th>
+                    <th>Imagen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se agregarán los reportes enviados -->
+            </tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
